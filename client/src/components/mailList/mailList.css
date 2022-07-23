@@ -1,12 +1,12 @@
 .mail{
   width: 100%;
+  width: auto;  
   margin-top: 50px;
   background-color: #003580;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
   padding: 50px;
 }
 
@@ -27,4 +27,24 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px){
+  .mail{
+    width: 100%;
+    padding: 50px 0 ;
+  }
+
+  .mailTitle, .mailDesc{
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  .mailInputContainer>input{
+    width: auto;
+  }
 }

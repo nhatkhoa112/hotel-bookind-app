@@ -150,6 +150,11 @@
   .headerSearch{
     width: 100%;
   }
+
+  .date{
+    top: 40px;
+  }
+  
 }
 
 
@@ -157,6 +162,28 @@
   .headerContainer {
     width: 80%;
     max-width: 608px;
+  }
+
+  .options{
+    top: 75px;
+  }
+
+  .date{
+    top: 35px;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  .options{
+    top: 100px;
+  }
+
+.date{
+    position: absolute;
+    top: 65px;
   }
 
 }

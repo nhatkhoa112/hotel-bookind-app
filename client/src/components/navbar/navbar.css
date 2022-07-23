@@ -29,13 +29,14 @@
   
   .navButton{
     font-weight: 700;
-    margin-left: 20px;
+    margin: 1px 0 1px 20px;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
     color: #003580;
     opacity: 0.8;
     transition: all 0.2s ease-in-out ;
+    
 
   }
 

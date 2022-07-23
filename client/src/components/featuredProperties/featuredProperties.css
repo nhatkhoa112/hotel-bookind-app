@@ -5,7 +5,7 @@
   min-height: 50vh;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .fpItem{
@@ -13,10 +13,14 @@
   gap: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .fpImg{
   width: 100%;
+  max-width: 328px;
+  min-width: 328px;
   height: 250px;
   object-fit: cover;
 }
@@ -45,4 +49,14 @@
 
 .fpRating>span{
   font-size: 14px;
+}
+
+
+
+@media only screen and (max-width: 480px){
+  .fpImg{
+    max-width: 188.8px;
+    min-width: 188.8px;
+    height: 130px;
+  }
 }
